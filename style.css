@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(13, 60, 68);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .box{
+    margin: 50px;
+    width: 50%;
+    height: 400px;
+    background-color:rgb(114, 9, 49);
+    transition: ease 8s;
+    -webkit-transition: ease 8s;
+    -moz-transition: ease 8s;
+    -ms-transition: ease 8s;
+    -o-transition: ease 8s;
+}
+.container .box.box1:hover{
+    background-position: bottom;
+}
+.container .box.box2:hover{
+    background-position: bottom;
+}
+.container .box.box1{
+    background: url(img/bootstrap.jpg);
+    background-size: cover;
+}
+.container .box.box2{
+    background: url(img/microsoft.jpg);
+    background-size: cover;
+}
